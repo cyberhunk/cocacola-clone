@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    background-color: black;
+}
+
+.nav {
+    height: 16vh;
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    height: 150px;
+
+}
+
+#search_bar {
+    color: white;
+    position: absolute;
+    right: 9px;
+}
+
+#menu {
+    color: white;
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
+.menu11 {
+    position: absolute;
+
+    margin-left: -18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 24px;
+
+
+}
+
+.left-nav {
+    text-decoration: none;
+}
+
+.right-nav {
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+
+.container {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+
+}
+
+.left-box {
+    height: 100%;
+    width: 36vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add1 {
+    opacity: 1;
+}
+
+.element_para {
+    opacity: 0.8;
+    margin-top: 22px;
+}
+
+.classes {
+    height: 96px;
+}
+
+.text {
+    width: 300px;
+}
+
+.center-box {
+    height: 100%;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-box {
+    height: 55vh;
+    width: 19vw;
+    background-color: rgb(255, 0, 0);
+    border-radius: 150px 150px 0 0;
+    margin-top: -21px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTmbl6pkPovLduDfElXDikEZwboh6PZSPkA&usqp=CAU);
+    filter: blur(2px);
+}
+
+.right-box {
+    height: 100%;
+    width: 35vw;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botalpng {
+    position: absolute;
+    z-index: 1;
+    height: 430px;
+    width: 260px;
+}
+
+#heading {
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+}
+
+#coke {
+    color: red;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.paragraph {
+    color: white;
+    margin-top: 28px;
+    opacity: 0.8;
+    font-size: 15px;
+    width: 220px;
+}
+
+button {
+    padding: 7px 15px;
+    color: rgb(254, 254, 254);
+    background-color: red;
+    font-weight: 900;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border: none;
+
+}
+
+#bag {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.right_text {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid rgb(161, 161, 161);
+    align-items: center;
+}
+
+.add {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+    height: 43px;
+    margin-top: 15px;
+}
+
+.add>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.add1 {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+    height: 43px;
+    margin-top: 15px;
+}
+
+/* second  page css */
+.container-2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left_div {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_div {
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#add1 {
+    font-size: 17px;
+    padding-top: 9px;
+}
+
+#coco {
+    height: 590px;
+}
+
+#iiiii {
+    margin-left: -22px;
+    margin-top: 29px;
+    width: 570px;
+    margin-left: -88px;
+}
+
+/* page 3 css */
+footer {
+    width: 100%;
+    height: 22vh;
+    /* background-color: rgb(36, 30, 30); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbl>h2 {
+    color: aliceblue;
+    margin-left: 240px;
+    margin-bottom: 17px;
+}
+
+.symbl>p {
+    color: aliceblue;
+}
+
+.logo_box {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo_box .line {
+    color: red;
+
+    width: 85px;
+    height: 1px;
+    border: 1px solid red;
+    font-weight: bolder;
+}
+
+
+/* start responsive ness code  */
+
+@media (max-width: 665px) {
+    
+
+    #search_bar {
+        margin-left: -22px;
+    }
+
+    .nav {
+        margin-top: -2vh;
+    }
+
+    li,
+    a {
+        display: none;
+    }
+
+    .line {
+        width: 2vw;
+    }
+
+    .logo_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 9vw;
+        width: 68vw;
+
+    }
+
+    .nav #search_bar {
+        position: absolute;
+
+    }
+
+    .nav img {
+        height: 13vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .left-box {
+        width: 100%;
+        height: 100%;
+        margin-left: 15vw;
+
+    }
+
+    button {
+        border: none;
+    }
+
+    .text {
+        width: 91%;
+    }
+
+    .center-box {
+        width: 100%;
+        margin-top: 130px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7vw;
+    }
+
+    .botalpng {
+        height: 55vh;
+        margin-left: -16vw;
+    }
+
+    .img-box {
+        height: 39vh;
+        width: 52vw;
+        margin-left: -14.4vw;
+    }
+
+    .right-box {
+        width: 80%;
+        margin-top: 17vh;
+        margin-left: 11vw;
+
+    }
+
+    /* second page */
+    .container-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 22vh;
+    }
+
+    .left_div {
+        margin-left: -2vw;
+        height: 44vh;
+    }
+
+    .right_div {
+        margin-top: 16vh;
+        margin-right: -19vw;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .symbl h2 {
+        margin-left: 33vw;
+    }
+
+    .symbl p {
+        width: 80%;
+        margin-left: 14vw;
+
+    }
+    .main{
+        width: 100%;
+        margin-right: 0%;
+    }
+    body{
+        width: 100%;
+    }
+}
+/* i faced scroll x in my site so i resolve error here */
+/* .nav{
+    display: none;
+}
+.container{
+    display: none;
+}
+.container-2{
+    display: none;
+}
+    footer{
+    display: none;
+} */
+
+#menu:checked
